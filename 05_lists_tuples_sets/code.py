@@ -9,14 +9,16 @@ s = {'Wale', 'Tunde', 'Kunle'}
 s.add('Bisi')
 s.add('Bisi')
 # Features of a list
+# A list uses square brackets
 # A list can be edit and changed. A list has the feature append or remove
 
 # Features of Tuple
-
+# A tuple uses normal brackets
 # A tuple cannot be edited or changed, hence, it does not have the append or remove features
 l.append('Bayo')
-# Features of a Set
 
+# Features of a Set
+# A set uses curly brackets
 # A set does not allow for the subscript notation.
 # A set does not have an order
 # There can be no duplicate element in a set
