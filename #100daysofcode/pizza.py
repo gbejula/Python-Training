@@ -1,20 +1,17 @@
-print("Welcome to the Pizza Store!!!")
-#small pizza
-S = 15
+print("Welcome to the Python Pizza Deliveries!")
 
-#medium pizza
-M = 20
 
-#large pizza
-L = 25
+size = input("What size of pizza do you want? S, M, L: ")
+# add_pepperoni = input("Do you want pepperoni? Y or N: ")
+# extra_cheese = input("Do you want extra cheese? Y or N: ")
 bill = 0
-
-size = input("What size of pizza do you want: ")
 
 if (size == "S"):
     bill += 15
+    print(f"The price of your pizza is: {bill}")
 elif (size == "M"):
     bill += 20
+    print(f"The price of your pizza is: {bill}")
 elif (size == "L"):
     bill += 25
     print(f"The price of your pizza is: {bill}")
