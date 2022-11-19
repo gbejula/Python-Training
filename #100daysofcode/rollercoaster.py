@@ -7,6 +7,8 @@ if (height > 120):
         print("Child ticket is $5")
     elif age <= 18:
         print("Tennager ticket is $7")
+    elif age >= 45 and age <= 55:
+        print("Your ride is free!")
     else:
         print("Adult ticket is $12")
 else:
