@@ -1,12 +1,4 @@
 print("Welcome to the Pizza Store!!!")
-#small pizza
-S = 15
-
-#medium pizza
-M = 20
-
-#large pizza
-L = 25
 bill = 0
 
 size = input("What size of pizza do you want: ")
