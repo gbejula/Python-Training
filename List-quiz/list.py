@@ -5,7 +5,6 @@ name_length = (len(names))
 rand_num = random.randint(0, name_length -1 )
 person_to_pay = names[rand_num]
 print(person_to_pay + ' will pay for the meals and drink today.')
-# solution to 100 challenge
 
-person_to_pay = random.choice(names)
+# person_to_pay = random.choice(names)
 print(person_to_pay)
