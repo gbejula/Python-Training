@@ -1,9 +1,13 @@
+<<<<<<< HEAD
+print("Welcome to the Pizza Store!!!")
+=======
 print("Welcome to the Python Pizza Deliveries!")
 
 
 size = input("What size of pizza do you want? S, M, L: ")
 add_pepperoni = input("Do you want pepperoni? Y or N: ")
 extra_cheese = input("Do you want extra cheese? Y or N: ")
+>>>>>>> 6004fcb53c92e890f95d60117163788a99130731
 bill = 0
 
 if size == "S":
